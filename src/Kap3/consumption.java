@@ -1,3 +1,5 @@
+package Kap3;
+
 import java.util.Scanner;
 
 public class consumption {
@@ -6,7 +8,7 @@ public class consumption {
 
         System.out.println("Enter how many gallons where used: ");
         double gallons = scn.nextDouble();
-        System.out.println("Over which distance in miles: ");
+        System.out.println("Over which Kap3.distance in miles: ");
         double miles = scn.nextDouble();
 
         double consumption_liters_per_mile = (gallons * 3.785) / (miles * 1.609);

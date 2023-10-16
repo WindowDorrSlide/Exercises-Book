@@ -1,3 +1,5 @@
+package Kap3;
+
 import java.util.Scanner;
 
 public class converter {

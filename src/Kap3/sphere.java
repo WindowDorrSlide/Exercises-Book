@@ -1,9 +1,11 @@
+package Kap3;
+
 import java.util.Scanner;
 public class sphere {
     public static void main(String[] args)  {
         Scanner scn = new Scanner(System.in);
 
-        System.out.println("Give radial of sphere: ");
+        System.out.println("Give radial of Kap3.sphere: ");
         int inp = scn.nextInt();
 
         double area = (4 * Math.PI * Math.cbrt(inp)) / 3;
