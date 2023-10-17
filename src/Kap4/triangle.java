@@ -15,6 +15,7 @@ public class triangle {
         System.out.println("alfa: ");
         double alfa = scn.nextDouble();
 
+        // Fick hjälp av tvilingarna med att få equvationen rätt då inte hade Radialer
         double c = Math.sqrt(a*a + b*b - 2*a*b*Math.cos(Math.toRadians(alfa)));
 
         if (Math.abs(c-b) < 0.0001 && b == a)   {
